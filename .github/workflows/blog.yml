@@ -7,16 +7,12 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
 
-      - name: Update theme
-
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.64.0"
 
       - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
 
       - name: Deploy
@@ -25,8 +21,6 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: whereistejas/whereistejas.github.io
           publish_dir: ./public
-          #   keep_files: true
           user_name: whereistejas
           user_email: sanap.tejas@gmail.com
           publish_branch: master
-        #   cname: example.com
