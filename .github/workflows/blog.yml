@@ -23,4 +23,4 @@ jobs:
           publish_dir: ./public
           user_name: whereistejas
           user_email: sanap.tejas@gmail.com
-          publish_branch: master
+          publish_branch: gh-pages
