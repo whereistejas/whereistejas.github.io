@@ -1,23 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on whereistejas</title>
-        <link>/posts/</link>
-        <description>Recent content in Posts on whereistejas</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
-        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>My First Post</title>
-            <link>/posts/my-first-post/</link>
-            <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/my-first-post/</guid>
-            <description>Some content here.</description>
-            <content type="html"><![CDATA[<p>Some content here.</p>
-]]></content>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Posts on whereistejas</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on whereistejas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>SoMe CoTeNt hErE. Some content here.</description>
+    </item>
+    
+  </channel>
 </rss>
