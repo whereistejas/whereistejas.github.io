@@ -10,10 +10,10 @@
         
         <item>
             <title>Using GDB to debug rust code in neovim</title>
-            <link>/posts/my-first-post/</link>
+            <link>/posts/2021/09/using-gdb-to-debug-rust-code-in-neovim/</link>
             <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
             
-            <guid>/posts/my-first-post/</guid>
+            <guid>/posts/2021/09/using-gdb-to-debug-rust-code-in-neovim/</guid>
             <description>I would love to start by giving a reference to this great blog.
 It outlines only the necessary and just works.
 However, one issue I faced during using gdb was figuring out how to display the value of different variables especially if they are vectors or slices.
@@ -25,10 +25,10 @@ ins(gdb) print old $23 = &amp;amp;[&amp;amp;str] {data_ptr: 0x555555626ba0, leng
 <p>However, one issue I faced during using <code>gdb</code> was figuring out how to display
 the value of different variables especially if they are vectors or slices.</p>
 <p>For example, if an array of the following type <code>&amp;[&amp;str]</code> of length 10:</p>
-<pre><code>ins(gdb) print old
+<pre><code class="language-dark" data-lang="dark">ins(gdb) print old
 $23 = &amp;[&amp;str] {data_ptr: 0x555555626ba0, length: 15}
 </code></pre><p>and I want to see the content of such an array. I have to use the following syntax:</p>
-<pre><code>print *old@10
+<pre><code class="language-dark" data-lang="dark">print *old@10
 </code></pre><p>I hope this helps out somebody.</p>
 ]]></content>
         </item>

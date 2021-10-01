@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using GDB to debug rust code in neovim</title>
-      <link>/posts/my-first-post/</link>
+      <link>/posts/2021/09/using-gdb-to-debug-rust-code-in-neovim/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
+      <guid>/posts/2021/09/using-gdb-to-debug-rust-code-in-neovim/</guid>
       <description>I would love to start by giving a reference to this great blog.
 It outlines only the necessary and just works.
 However, one issue I faced during using gdb was figuring out how to display the value of different variables especially if they are vectors or slices.
