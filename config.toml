@@ -46,7 +46,7 @@ PygmentsStyle = "monokai"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/whereistejas"
+    url  = "https://www.linkedin.com/in/whereistejas"
 
   [params.footer]
     trademark = true
