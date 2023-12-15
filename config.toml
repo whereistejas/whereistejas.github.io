@@ -1,4 +1,4 @@
-title = "My Blog"
+title = "whereistejas"
 theme = "hello-friend-ng"
 paginate = 10
 
@@ -49,11 +49,7 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/whereistejas"
 
 [params.footer]
-trademark = true
 rss = true
-copyright = true
-author = true
-
 
 # Colors for favicons
 #
