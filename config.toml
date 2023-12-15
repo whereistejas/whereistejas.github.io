@@ -1,96 +1,85 @@
-title        = "My Blog"
-theme        = "hello-friend-ng"
-paginate     = 10
+title = "My Blog"
+theme = "hello-friend-ng"
+paginate = 10
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+posts = "/posts/:year/:month/:title/"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
-  homeSubtitle = "and, this is my home on the internet"
+# Subtitle for home
+homeSubtitle = "and, this is my home on the internet"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+# Enable sharing buttons, if you like
+enableSharingButtons = true
 
-  # Enable toggle theme
-  enableThemeToggle = true
+# Enable toggle theme
+enableThemeToggle = true
 
-  # Metadata mostly used in document's head
-  description = "Good things take time."
-  keywords = "homepage, blog"
-  images = [""]
+# Metadata mostly used in document's head
+description = "Good things take time."
+keywords = "homepage, blog"
+images = [""]
 
-  # social
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/whereistejas"
+# social
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/whereistejas"
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:sanap.tejas@gmail.com"
+[[params.social]]
+name = "email"
+url = "mailto:sanap.tejas@gmail.com"
 
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/whereistejas"
+[[params.social]]
+name = "github"
+url = "https://github.com/whereistejas"
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/whereistejas"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/whereistejas"
 
-  [params.footer]
-    trademark = true
-    rss = true
-    copyright = true
-    author = true
+[params.footer]
+trademark = true
+rss = true
+copyright = true
+author = true
 
-    topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
-    ]
 
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
+# Colors for favicons
+#
+[params.favicon.color]
+mask = "#1b1c1d"
+msapplication = "#1b1c1d"
+theme = "#1b1c1d"
 
 [taxonomies]
-    category = "categories"
-    tag      = "tags"
-    series   = "series"
+category = "categories"
+tag = "tags"
+series = "series"
 
 
 [languages]
-  [languages.en]
-    title = "Hi, I'm Tejas!"
-    subtitle = "My personal blog"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+[languages.en]
+title = "Hi, I'm Tejas!"
+subtitle = "My personal blog"
+keywords = ""
+readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "whereistejas"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en.params.logo]
+logoText = "whereistejas"
+logoHomeLink = "/"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Blog"
-    url        = "/posts"
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts"
